@@ -1,0 +1,17 @@
+.nav {
+    grid-area: nv;
+    background-color: coral;
+    padding: 20px;
+}
+
+.item a {
+    color: firebrick;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    background-color: firebrick;
+    color: coral;
+}
+
+

@@ -1,0 +1,23 @@
+.dialogs {
+    color: firebrick;
+
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+.dialog {
+
+}
+
+.dialog a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+.dialog a.activeLink {
+    text-underline-color: firebrick;
+}
+
+.dialog {
+    padding: 10px;
+}
